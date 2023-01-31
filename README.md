@@ -1,0 +1,27 @@
+N-Layers (also known as N-Tiers) architecture.
+
+- src/
+  - entities/
+    - User.js
+    - Product.js
+  - factories/
+    - UserFactory.js
+    - ProductFactory.js
+  - repositories/
+    - UserRepository.js
+    - ProductRepository.js
+  - routes/
+    - UserRoute.js
+    - ProductRoute.js
+  - services/
+    - UserService.js
+    - ProductService.js
+  - util/
+    - Validation.js
+    - ErrorHandling.js
+  - handler/
+    - RouteHandler.js
+- tests/
+  - integration/
+    - UserIntegrationTest.js
+    - ProductIntegrationTest.js
